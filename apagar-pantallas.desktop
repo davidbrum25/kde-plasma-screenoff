@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Apagar pantallas
+Comment=Turn off monitors without changing the display setup
+Exec=apagar-pantallas
+Icon=video-display
+Terminal=false
+Categories=Utility;

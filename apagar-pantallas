@@ -1,0 +1,5 @@
+#!/bin/bash
+# Turns off all monitors (DPMS) on KDE Plasma without changing the display layout.
+# Move the mouse or press any key to wake them.
+sleep 1   # lets the key release so it doesn't wake the screens right away
+exec kscreen-doctor --dpms off
